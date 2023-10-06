@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap');
+
+:root{
+  --bg: #1A1A19;
+}
+
+*{
+  font-family: Prompt, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body{
+  margin: 0px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JeTFlix - Sign-Up</title>
+  <link rel="stylesheet" href="./style/general.css"/>
+  <link rel="stylesheet" href="./style/header.css"/>
+  <link rel="stylesheet" href="./style/sign-up.css"/>
+  <link rel="stylesheet" href="./style/footer.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">JetFlix</div>
+  </header>
+
+  <div class="container-1">
+    <div class="heading">Create an Account</div>
+
+    <div class="form-container">
+        <form action="" method="post" id="form" class="form">
+          <div class="input-title"> Email address
+            <input type="text" name="email" id="email">
+          </div>
+
+          <div class="input-title"> Name
+            <input type="text" name="name" id="name">
+          </div>
+          
+          <div class="input-title"> Date of Birth
+            <input type="date" name="dob" id="dob">
+          </div>
+
+          <div class="input-title" id="gender"> Gender
+            <div class="gender-choice">
+              <input type="radio" name="gender" id="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female">
+              <label for="male">Female</label>
+            </div>
+          </div>
+
+          <div class="input-title"> Password
+            <input type="password" name="password" id="password">
+          </div>
+
+          <div class="input-title"> Confirm Password
+            <input type="password" name="confpassword" id="confpassword">
+          </div>
+          
+          <div class="tnc">
+            <input type="checkbox" name="agreement" id="agreement">
+            I agree with terms and conditions
+          </div>
+        </form>
+    </div>
+
+    <div class="button">
+      <button type="button" onclick="checkInput()" class="register-btn">
+        Register
+        <img class="vector-icon" alt="" src="../jetflix/assets/arrow-vector.png" />
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">JeTFlix</div>
+    <div class="sosmed">
+      <img src="./assets/icons/facebook.png">
+      <img src="./assets/icons/twitter.png">
+      <img src="./assets/icons/instagram.png">
+      <img src="./assets/icons/youtube.png">
+    </div>
+    <div class="copyright">© 2023 JetFlix, Inc.</div>
+  </footer>
+  
+  <script src="../jetflix/script/header.js"></script>
+  <script src="../jetflix/script/sign-up.js"></script>
+</body>
+</html>
