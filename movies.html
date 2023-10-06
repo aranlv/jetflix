@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JetFlix - Movies</title>
+  <link rel="stylesheet" href="./style/general.css"/>
+  <link rel="stylesheet" href="./style/header.css"/>
+  <link rel="stylesheet" href="./style/movies.css"/>
+  <link rel="stylesheet" href="./style/footer.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">JetFlix</div>
+    <div class="nav">
+      <a href="./movies.html" class="navpage">Movies</a>
+      <a href="./news-popular.html" class="navpage">News & Popular</a>
+    </div>
+  </header>
+
+  <div class="jumbotron">
+
+    <div class="jumbotron-content">
+      <div class="button">
+        <button type="button" class="watch-btn" id="watch-btn">
+          <span class="watch-btn-txt">Watch Now</span>
+          <img class="vector-icon" src="../jetflix/assets/play-vector.png"/>
+        </button>
+      </div>
+      <div class="synopsis">
+        After a global pandemic destroys civilization, 
+        a hardened survivor takes charge of a 14-year-old girl who 
+        may be humanity's last hope.
+      </div>
+    </div>
+
+    <div class="gradient"></div>
+  </div>
+  
+  <div class="movies">
+    <div class="category-box">
+      <div class="ctg">Popular Now</div>
+      <div class="posters">
+        <img class="poster" src="../jetflix/assets/popular-now/drcha.png" >
+        <img class="poster" src="../jetflix/assets/popular-now/theglory.png" >
+        <img class="poster" src="../jetflix/assets/popular-now/evildeadrise.png" >
+        <img class="poster" src="../jetflix/assets/popular-now/extraction.png" >
+        <img class="poster" src="../jetflix/assets/popular-now/taxi driver.png" >
+      </div>
+    </div>
+  
+    <div class="category-box">
+      <div class="ctg">Action Shows</div>
+      <div class="posters">
+        <img class="poster" src="../jetflix/assets/action-shows/black-knight.png" >
+        <img class="poster" src="../jetflix/assets/action-shows/vagabond.png" >
+        <img class="poster" src="../jetflix/assets/action-shows/money-heist.png" >
+        <img class="poster" src="../jetflix/assets/action-shows/snowpiercer.png" >
+        <img class="poster" src="../jetflix/assets/action-shows/loki.png" >
+      </div>
+    </div>
+  
+    <div class="category-box">
+      <div class="ctg">Fantasy Shows</div>
+      <div class="posters">
+        <img class="poster" src="../jetflix/assets/fantasy-shows/aos.png" >
+        <img class="poster" src="../jetflix/assets/fantasy-shows/umbrella-academy.png" >
+        <img class="poster" src="../jetflix/assets/fantasy-shows/the witcher.png" >
+        <img class="poster" src="../jetflix/assets/fantasy-shows/nine-tailed.png" >
+        <img class="poster" src="../jetflix/assets/fantasy-shows/flash.png" >
+      </div>
+    </div>
+  
+    <div class="category-box">
+      <div class="ctg">Horror Thriller</div>
+      <div class="posters">
+        <img class="poster" src="../jetflix/assets/horror-thriller/popes.png" >
+        <img class="poster" src="../jetflix/assets/horror-thriller/the-watcher.png" >
+        <img class="poster" src="../jetflix/assets/horror-thriller/sweet-home.png" >
+        <img class="poster" src="../jetflix/assets/horror-thriller/a-quiet-place.png" >
+        <img class="poster" src="../jetflix/assets/horror-thriller/next-of-kin.png" >
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">JeTFlix</div>
+    <div class="sosmed">
+      <img src="./assets/icons/facebook.png">
+      <img src="./assets/icons/twitter.png">
+      <img src="./assets/icons/instagram.png">
+      <img src="./assets/icons/youtube.png">
+    </div>
+    <div class="copyright">© 2023 JetFlix, Inc.</div>
+  </footer>
+
+  <script src="../jetflix/script/header.js"></script>
+  <script type="text/javascript">
+    document.getElementById("watch-btn").onclick = function () {
+        location.href = "detail.html";
+    };
+  </script>
+</body>
+</html>
