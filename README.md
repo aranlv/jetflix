@@ -41,7 +41,7 @@ To run the website locally:
 1. Clone this repository to your local machine.
 2. Open `index.html` in your web browser.
 
-To access the live version of the website hosted on GitHub Pages, visit [JeTFlix Web Prototype](https://aranlv.github.io/jetflix).
+To access the live version of the website hosted on GitHub Pages, visit [JeTFlix Web Prototype](https://aranlv.github.io/jetflix/homepage.html).
 
 Feel free to explore and interact with the website prototype.
 
